@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	background-color:#CCC;
+	margin:0;
+	padding:0;
+	
+}
+
+#storbox {
+	background-color:#FFF;
+	width: 80%;
+	height: 100%;
+	margin-left: 10%;
+	position: absolute;
+}
+
+header{
+	background-color:#64495F;
+	height:15%;
+	text-align:center;
+	overflow:hidden;
+	
+}
+
+h1{
+	margin-top:5%;	
+	color:#FFF;
+
+
+	
+	
+}
+
+nav{
+	background-color:#FFF;
+	height:80%;
+	width:15%;
+	float:left;
+		
+}
+#ulNav{
+	list-style:none;
+  	width: 10%;
+	text-align:left;
+	display:block;
+	padding:5px;
+	
+}
+
+
+nav a{
+	line-height:40px;
+	height:100%;
+    width: 190px; 
+	float:left;
+	
+}
+
+a:hover{
+	background-color:#64495F;
+	
+}
+article{
+	background-color:#FFF;
+	width:70%;
+	height:80%;	
+	float:left;
+}
+
+figure{
+	width:100px;
+	height:100px;
+}
+img{
+	width:300px;
+	height:300px;
+}
+
+
+
+aside{
+	background-color:#FFF;
+	width:15%;
+	height:80%;	
+	float:right;
+	text-align:center;
+	
+}
+	
+footer{
+	background-color:#FFF;
+	height:10%;
+	clear:left;
+	text-align:center;
+	margin-top:0;	
+}
+#foten{
+	font-size:10px;
+		
+}
+.blue_box{
+	height:70px;
+	padding:10px;
+	margin-top:10px;	
+}
