@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Boy</title>
+<script
+			  src="https://code.jquery.com/jquery-3.1.1.min.js"
+			  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+			  crossorigin="anonymous">
+</script>
+
+<style>
+div{
+	width:500px;
+	padding-top:400px;
+	margin:auto;
+}
+
+</style>
+
+</head>
+
+<body>
+	<div>
+<input type="text" class="input value1">
++
+<input type="text" class="input value2">
+=
+<input type="text" disabled="disabled" id="result"> 
+
+<p> Summan är: </p>
+</div>
+
+<script>
+ $(document).ready(function(){
+	 $(".input").keyup(function(){
+      var val1=parseInt ($(".value1").val());
+      var val2=parseInt ($(".value2").val());
+	  var summa = val1 + val2;
+	  $("#result").val(val1+val2);
+	  $("p").text("Summan är: " + summa);
+   });
+	  
+});
+</script>
+
+
+
+
+	
+	
+
+</body>
+</html>
