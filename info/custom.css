@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+  margin: 0;
+  height: 1000px;
+}
+
+.top {
+  margin: 0;
+  position: relative;
+  width: 100%;
+  background-color: #aaa;
+  height: 300px;
+  opacity: 1;
+  text-align: center;
+  font-family: 'helvetica';
+  font-size: 80px;
+  font-weight: 100;
+  color: #fff;
+}
+
+.title {
+  position: absolute;
+  top: 60%;
+  left: 100px;
+}
+.banner
+{
+   background-image:url(Segitiga-Fotografi-Tedy-+-Devi.jpg);
+     background-repeat:no-repeat;
+   background-size:cover;
+   background-attachment:fixed;
+   background-position:center center;
+   min-height:750px;
+
+
+
+}
+.button {
+  border-radius: 4px;
+
+
+  transition: all 0.5s;
+  cursor: pointer;
+
+  background-color:#000000;
+  
+  color:#FFFFFF;
+  padding: 18px;
+  padding-bottom:3px;
+  font-size: 25px;
+  letter-spacing: 10px;
+   border:none;
+  
+  text-align: center;
+ 
+}
+
+
+.button span {
+  cursor: pointer;
+ 
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+div.hidden2
+{
+    display: none
+}
