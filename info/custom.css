@@ -40,12 +40,8 @@ body {
 }
 .button {
   border-radius: 4px;
-
-
-
   transition: all 0.5s;
   cursor: pointer;
-
   background-color:#000000;
   
   color:#FFFFFF;
@@ -53,7 +49,7 @@ body {
   padding-bottom:3px;
   font-size: 25px;
   letter-spacing: 10px;
-   border:none;
+  border:none;
   
   text-align: center;
  
@@ -123,33 +119,31 @@ body, html {
 }
 
 .caption {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  color: #000;
+	position: absolute;
+	left: -7px;
+	top: 261px;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	height: 2px;
+	background-color:transparent;
+	font-size:25px;
+	color:#f7f7f7;
 }
-.caption1{
-	position: relative;
-	color:#ddd;
-	background-color:#282E34;
-	text-align:center;
-	padding:50px 400px;
-	text-align: justify;
-}
+
 	
 
 .caption span.border {
-  background-color: #111;
+  background-color:transparent;
   color: #fff;
   padding: 18px;
   font-size: 25px;
   letter-spacing: 10px;
 }
 
+
 h3 {
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   text-transform: uppercase;
   font: 20px "Lato", sans-serif;
   color: #111;
@@ -159,7 +153,7 @@ h3 {
   background-color:white;
   text-align:center;
   padding:50px 80px;
-  text-align: justify;
+ 
   
   
 		
@@ -169,7 +163,35 @@ h3 {
   color:#ddd;
   text-align:center;
   padding:50px 80px;
-  text-align: justify;
+	
+}
+.Box3{
+  background-color:#282E34;
+  color:#ddd;
+  text-align:center;
+  padding:50px 80px;
 	
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* stänger av parallaxen för enheter som mobiler osv. */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
