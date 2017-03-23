@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+      position: relative; 
+  }
+#section1 {
+    padding-top:50px;
+    height:1000px;
+	color: #fff;
+    background-color:#000;
+}
+#section2 {
+	padding-top:50px;
+	height:1000px;color: #fff;
+	background-color: #673ab7;
+	
+	 
+}
+
+#section3 {
+   padding-top:50px;
+   height:1000px;color: #fff;
+   background-color: #ff9800;
+   
+}
+
+#section4 {
+   padding-top:50px;
+   height:1000px;color: #fff;
+   background-color: #00bcd4;
+}
+
+#section5 {
+	padding-top:50px;
+	height:1000px;color: #fff;
+	background-color: #009688;
+}
+
+.navbar {
+	background-color:transparent;
+}
+
