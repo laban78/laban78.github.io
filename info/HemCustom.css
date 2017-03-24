@@ -39,5 +39,37 @@ body {
 
 .navbar {
 	background-color:transparent;
+	
 }
+.navbar-nav{ 
+
+	padding-left:30%;
+}
+.navbar-inverse{border-color:transparent;}
+
+.active:hover{background-color:transparent;
+	color:#F00;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+	
+	background-color:transparent;
+	font-size:20pt;
+}
+#openNav, #closeNav{
+	float:right;
+	font-size:10pt;
+	height:41px;
+	display:none;
+}
+	
+#closeNav{
+	display:none;
+}
+
+@media only screen and (max-device-width: 1024px) {
+	#myNavbar{display:none;}
+	openNav, #closeNav{display:block;
+}
+
+
 
