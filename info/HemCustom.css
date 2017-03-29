@@ -6,13 +6,13 @@ body {
   }
 #section1 {
     padding-top:50px;
-    height:1000px;
+    height:100vh;
 	color: #fff;
-    background-color:#000;
+    background-color:#09C;
 }
 #section2 {
 	padding-top:50px;
-	height:1000px;color: #fff;
+	height:100vh;color: #fff;
 	background-color: #673ab7;
 	
 	 
@@ -20,40 +20,59 @@ body {
 
 #section3 {
    padding-top:50px;
-   height:1000px;color: #fff;
+   height:100vh;color: #fff;
    background-color: #ff9800;
    
 }
 
 #section4 {
    padding-top:50px;
-   height:1000px;color: #fff;
+   height:100vh;color: #fff;
    background-color: #00bcd4;
 }
 
 #section5 {
 	padding-top:50px;
-	height:1000px;color: #fff;
+	height:100vh;color: #fff;
 	background-color: #009688;
 }
+
+
+nav.navbar{
+  background-color:transparent;
+   -webkit-transition: all 0.4s ease;
+   transition: all 0.4s ease;
+}
+
+nav.navbar.shrink {
+  background-color: #000;
+}
+
+
 
 .navbar {
 	background-color:transparent;
 	
 }
 .navbar-nav{ 
+	padding-left:28%;
 
-	padding-left:30%;
+
+
 }
-.navbar-inverse{border-color:transparent;}
+.navbar-inverse{
+	border-color:transparent;
+}
 
-.active:hover{background-color:transparent;
+.active:hover{
+	background-color:transparent;
 	color:#F00;
 }
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
 	
 	background-color:transparent;
 	font-size:20pt;
+	
 }
 #openNav, #closeNav{
 	float:right;
