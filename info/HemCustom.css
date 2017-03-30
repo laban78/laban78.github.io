@@ -5,38 +5,59 @@ body {
       position: relative; 
   }
 #section1 {
-    padding-top:50px;
-    height:100vh;
-	color: #fff;
+    padding-top:0;
+    height:120vh;
     background-color:#09C;
 }
+
+#section1 img {
+	height:100%;
+	width:100%;
+}
+
 #section2 {
-	padding-top:50px;
-	height:100vh;color: #fff;
+	height:120vh;
+	color: #fff;
 	background-color: #673ab7;
 	
 	 
 }
+#section2 img {
+	height:100%;
+	width:100%;
+}
+
 
 #section3 {
-   padding-top:50px;
-   height:100vh;color: #fff;
+   padding-top:0;
+   height:120vh;
+   color: #fff;
    background-color: #ff9800;
    
 }
+#section3 img {
+	height:100%;
+	width:100%;
+}
 
 #section4 {
-   padding-top:50px;
-   height:100vh;color: #fff;
+   padding-top:0;
+   height:120vh;
+   color: #fff;
    background-color: #00bcd4;
 }
 
 #section5 {
-	padding-top:50px;
-	height:100vh;color: #fff;
+	padding-top:0;
+	height:120vh;
+	color: #fff;
 	background-color: #009688;
 }
 
+.container-fluid {
+	padding-right:0;
+	padding-left:0;
+}
 
 nav.navbar{
   background-color:transparent;
@@ -46,6 +67,7 @@ nav.navbar{
 
 nav.navbar.shrink {
   background-color: #000;
+  color:#FFF;
 }
 
 
@@ -60,6 +82,14 @@ nav.navbar.shrink {
 
 
 }
+#myNavbar a{
+	font-family:Verdana, Geneva, sans-serif;
+	
+	
+}
+
+
+
 .navbar-inverse{
 	border-color:transparent;
 }
@@ -86,8 +116,12 @@ nav.navbar.shrink {
 }
 
 @media only screen and (max-device-width: 1024px) {
-	#myNavbar{display:none;}
-	openNav, #closeNav{display:block;
+	#myNavbar{	
+		display:none;
+}
+
+	openNav, #closeNav{
+		display:block;
 }
 
 
