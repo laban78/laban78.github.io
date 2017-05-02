@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, html {
+overflow-x:hidden;
+	min-height: 1280px;
+}
+
+/*header {
+  padding: 300px;
+  text-align: center;
+  background-image:url(bg2.jpg);
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+header h1 {
+  color: white;
+  font-size: 2em;
+}*/
+
+.banner{
+   background-image: url(bg2.jpg);
+   background-repeat:no-repeat;
+   background-size:cover;
+   height: 100%;
+   background-position:center;
+   min-height:120vh;
+   background-color:transparent;
+   font-size:25px;
+   color:transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:768px) {
+  .navbar-default {
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+    padding: 15px 0;
+    /* Add additional styles here for the UNCOLLAPSED state */
+  }
+  .navbar-default.affix {
+    padding: 0;
+    /* Add additional styles here for the COLLAPSED state */
+  }
+}
