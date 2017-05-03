@@ -3,24 +3,9 @@
 
 body, html {
 overflow-x:hidden;
-	min-height: 1280px;
+	
 }
 
-/*header {
-  padding: 300px;
-  text-align: center;
-  background-image:url(bg2.jpg);
-  background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
-
-header h1 {
-  color: white;
-  font-size: 2em;
-}*/
 
 .banner{
    background-image: url(bg2.jpg);
@@ -33,6 +18,7 @@ header h1 {
    font-size:25px;
    color:transparent;
 }
+
 
 
 
