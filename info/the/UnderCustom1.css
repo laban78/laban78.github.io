@@ -3,12 +3,13 @@
 
 body, html {
 overflow-x:hidden;
-	
+	min-height: 120vh;
 }
 
 
+
 .banner{
-   background-image: url(bg2.jpg);
+   background-image:url(86f21228a392ba1e473e9605ef200fec.jpg);
    background-repeat:no-repeat;
    background-size:cover;
    height: 100%;
@@ -19,9 +20,49 @@ overflow-x:hidden;
    color:transparent;
 }
 
+.navbar{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border:none;
+	margin:0;
+	font-family: 'Raleway', sans-serif;
+	background: #3a6186; /* för gamlare webläsare */
+    background: linear-gradient(to top, transparent , #272723);
+}
+
+.navbar-collapse .navbar-nav > li > a {
+
+color: #FFFFFF;
+}
+
+.navbar-default .navbar-brand{
+ 
+ font-size:26px;
+ font-family: 'Raleway', sans-serif;
+ color:#FFFFFF;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    
+    color:black;
+}
+.navbar-default .navbar-brand:hover  {
+ 
+ font-size:26px;
+ font-family: 'Raleway', sans-serif;
+ color:black;
+ 
+}
 
 
-
+footer{
+	text-align:center;
+	font-family: 'Raleway', sans-serif;
+	font-size:10em;
+	
+}
 
 
 
