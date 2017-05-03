@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-body {
+body{
   margin: 0;
   height: 1000px;
 }
@@ -53,6 +53,9 @@ body {
   
   text-align: center;
  
+}
+.button > a {
+	color:white;
 }
 
 
@@ -123,7 +126,7 @@ div.hidden2
 	height: 2px;
 	background-color:transparent;
 	font-size:25px;
-	color:#f7f7f7;
+	
 }
 
 	
