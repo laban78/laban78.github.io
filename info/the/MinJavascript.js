@@ -34,27 +34,23 @@ function closeNav(){
 			    	}
 			    }
 			});
-
-
-			/*
-		    * Internal use of the demo website
-		    */
-		    $('#showExamples').click(function(e){
-				e.stopPropagation();
-				e.preventDefault();
-				$('#examplesList').toggle();
-			});
-
-			$('html').click(function(){
-				$('#examplesList').hide();
-			});
 	    });
 
+	    $(".container").click(function () {
+		 	$(this).toggleClass("change");
+		
+			});
 
-function myFunction(x) {
-    x.classList.toggle("change");
-}
 
+  		$("#menu-close").click(function(e) {
+  		   e.preventDefault();
+  		   $("#sidebar-wrapper").toggleClass("active");
+});
+ 
+ 		$("#menu-toggle").click(function(e) {
+ 		   e.preventDefault();
+ 		   $("#sidebar-wrapper").toggleClass("active");
+});
 
 
 
