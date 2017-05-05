@@ -4,6 +4,7 @@
 body{
   margin: 0;
   height: 1000px;
+  overflow-x: hidden;
 }
 
 .top {
@@ -28,7 +29,7 @@ body{
 .banner
 {
    background-image:url(Segitiga-Fotografi-Tedy-+-Devi.jpg);
-     background-repeat:no-repeat;
+   background-repeat:no-repeat;
    background-size:cover;
    background-attachment:fixed;
    background-position:center center;
@@ -43,14 +44,14 @@ body{
   transition: all 0.5s;
   cursor: pointer;
   background-color:#000000;
-  
+  margin-left: auto;
   color:#FFFFFF;
   padding: 18px;
   padding-bottom:3px;
   font-size: 25px;
-  letter-spacing: 10px;
+  letter-spacing: 5px;
   border:none;
-  
+  margin-left:15px;
   text-align: center;
  
 }
@@ -61,8 +62,6 @@ body{
 
 .button span {
   cursor: pointer;
-  
- 
   display: inline-block;
   position: relative;
   transition: 0.5s;
@@ -103,7 +102,7 @@ div.hidden2
 .bgimg-1 {
   background-image:url(outside-travel-awards_h.jpg);
   min-height: 100%;
-  padding-top:275px;
+  padding-top:120vh;
 }
 
 .bgimg-2 {
@@ -191,5 +190,13 @@ h3 {
 @media only screen and (max-device-width: 1024px) {
     .bgimg-1, .bgimg-2, .bgimg-3 {
         background-attachment: scroll;
-    }
+	}
+		h3 {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+  padding-left:125px;
+}
+   
 }
