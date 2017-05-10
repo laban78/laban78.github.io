@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body, html {
+overflow-x:hidden;
+	min-height: 120vh;
+}
+
+
+
+.banner{
+   background-image:url(86f21228a392ba1e473e9605ef200fec.jpg);
+   background-repeat:no-repeat;
+   background-size:cover;
+   height: 100%;
+   background-position:center;
+   min-height:120vh;
+   background-color:transparent;
+   font-size:25px;
+   color:transparent;
+}
+
+.navbar{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border:none;
+	margin:0;
+	font-family: 'Raleway', sans-serif;
+	background: #3a6186; /* för gamlare webläsare */
+    background: linear-gradient(to top, transparent , #272723);
+}
+
+.navbar-collapse .navbar-nav > li > a {
+
+color: #FFFFFF;
+}
+
+.navbar-default .navbar-brand{
+ 
+ font-size:26px;
+ font-family: 'Raleway', sans-serif;
+ color:#FFFFFF;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    
+    color:black;
+}
+.navbar-default .navbar-brand:hover  {
+ 
+ font-size:26px;
+ font-family: 'Raleway', sans-serif;
+ color:black;
+ 
+}
+
+
+footer{
+	text-align:center;
+	font-family: 'Raleway', sans-serif;
+	font-size:10em;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:768px) {
+  .navbar-default {
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+    padding: 15px 0;
+    /* Add additional styles here for the UNCOLLAPSED state */
+  }
+  .navbar-default.affix {
+    padding: 0;
+    /* Add additional styles here for the COLLAPSED state */
+  }
+}
