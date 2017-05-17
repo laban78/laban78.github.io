@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
-form,fieldset,input,textarea,p,blockquote,th,td {
+form,fieldset,input,textarea,blockquote,th,td {
     padding: 0;
     margin: 0;
 }
@@ -47,11 +47,6 @@ abbr,acronym { border: 0;
 body{
 	font-family: 'Lato', Calibri, Arial, sans-serif;
 	color: #f2f2f2;
-}
-
-
-.section{
-	text-align: center;
 }
 
 /* Menu 
@@ -206,10 +201,15 @@ body{
 /* Section 1
  * --------------------------------------- */
 #section1 h1{
-	color: #444;
-	padding-left:65%;
-	font-size: 6em;
-	
+	color:#FFF;
+	padding-left:67%;
+	font-size: 6em;	
+}
+#section1 p{
+	color:#FFF;
+	font-size:24px;
+	padding-top:50px;
+	padding-left:55%;
 }
 
 
@@ -225,8 +225,15 @@ body{
 /* Section 2
  * --------------------------------------- */
 #section2 h1{
+	color:#666;
 	font-size: 6em;
-	padding-left:55%;
+	padding-left:63%;
+}
+#section2 p{
+	color:#666;
+	font-size:24px;
+	padding-top:5%;
+	padding-left:20%;
 }
 
 #section2 #colors{
@@ -256,10 +263,20 @@ body{
 	bottom: 0;
 }
 #section3 h1{
-	padding-left:73%;
+	padding-left:60%;
 	font-size: 6em;
-
-	
+	color:#FFF;
+}
+#section3 p{
+	color:FFF;
+	font-size:24px;
+	padding-left:24%;	
+}
+#section3 a:hover{
+	color:#6489B7;
+}
+#section3 a{
+	color:#FFF;
 }
 
 #section3{
@@ -290,10 +307,24 @@ body{
  * --------------------------------------- */
 
 #section4 h1{
-	padding-left:65%;
-	font-size: 6em;
-	
+	padding-left:20%;
+	padding-top:8%;
+	font-size: 6em;	
+	color:#FFF;
 }
+#section4 p{
+	color:#FFF;
+	font-size:24px;
+	padding-left:8%;
+}
+#section4 a:hover{
+	color:#6489B7;
+}
+#section4 a{
+	color:#FFF;
+}
+
+
 #section4{
 	background:url(angry-lion-wallpaper-hd.jpg)
 	no-repeat center center fixed; 
@@ -582,8 +613,6 @@ html, body {
 	border-color:rgb(255, 255, 255);
 	
 	}
-
-
 }
 
 
