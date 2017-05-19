@@ -240,7 +240,7 @@ body{
 #section2 h1{
 	color:#666;
 	font-size: 6em;
-	margin-left:27%;
+	margin-left:60%;
 	width:45%;
 }
 #section2 p{
@@ -249,7 +249,7 @@ body{
 	margin-left:1%;
 	margin-top:5%;
 	background-color:rgba(255, 255, 255, 0.2);
-	width:45%;
+	width:43%;
 	word-wrap:break-word;
 	border-radius:10px;
 	text-align:center;
@@ -289,16 +289,16 @@ body{
 	bottom: 0;
 }
 #section3 h1{
-	margin-left:35%;
+	margin-left:36%;
 	width:45%;
 	font-size: 6em;
 	color:#FFF;
 }
 #section3 p{
 	color:FFF;
-	font-size:24px;
+	font-size:22px;
 	margin-left:14%;
-	margin-top:22%;
+	margin-top:12%;
 	width:45%;
 	word-wrap:break-word;
 		
@@ -608,9 +608,9 @@ html, body {
 	padding: 0;
 	margin:0;
 }
-	#section1 h1{
+#section1 h1{
 	color:white;
-	padding-left:10%;
+	margin-left:7%;
 	font-size: 3em;
 
  
@@ -628,7 +628,7 @@ html, body {
 
 #section2 h1{
 	color:white;
-	padding-left:1%;
+	margin-left:10%;
 	font-size: 3em;
 	
 }
@@ -644,13 +644,14 @@ html, body {
 
 #section3 h1{
 	color:white;
-	padding-left:1%;
+	margin-left:7%;
+	width:100%;
 	font-size: 3em;
 	
 }
 #section3 p{
 	color:#FFF;
-	font-size:10px;
+	font-size:11px;
 	margin-left:8%;
 	margin-top:40%;
 	width:70%;
@@ -658,9 +659,9 @@ html, body {
 }
 #section4 h1{
 	color:white;
-	padding-left:1%;
+	margin-left:7%;
 	font-size: 3em;
-	padding-top:0%;
+	margin-top:0%;
 	
 }
 #section4 p{
@@ -669,6 +670,7 @@ html, body {
 	margin-left:8%;
 	width:250px;
 	word-wrap:break-word;
+	background-color:rgba(0, 0, 0, 0.2);
 }
 
 
