@@ -1,0 +1,202 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+  margin: 0;
+  height: 1000px;
+  overflow-x: hidden;
+}
+
+.top {
+  margin: 0;
+  position: relative;
+  width: 100%;
+  background-color: #aaa;
+  height: 300px;
+  opacity: 1;
+  text-align: center;
+  font-family: 'helvetica';
+  font-size: 80px;
+  font-weight: 100;
+  color: #fff;
+}
+
+.title {
+  position: absolute;
+  top: 60%;
+  left: 100px;
+}
+.banner
+{
+   background-image:url(Segitiga-Fotografi-Tedy-+-Devi.jpg);
+   background-repeat:no-repeat;
+   background-size:cover;
+   background-attachment:fixed;
+   background-position:center center;
+   min-height:750px;
+   background-color:transparent;
+   font-size:25px;
+   color:transparent;
+
+}
+.button {
+  border-radius: 4px;
+  transition: all 0.5s;
+  cursor: pointer;
+  background-color:#000000;
+  margin-left: auto;
+  color:#FFFFFF;
+  padding: 18px;
+  padding-bottom:3px;
+  font-size: 25px;
+  letter-spacing: 5px;
+  border:none;
+  margin-left:15px;
+  text-align: center;
+ 
+}
+.button > a {
+	color:white;
+}
+
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+div.hidden2
+{
+    display: none
+}
+
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image:url(outside-travel-awards_h.jpg);
+  min-height: 100%;
+  padding-top:120vh;
+}
+
+.bgimg-2 {
+  background-image:url(flowers-19830_960_720.jpg);
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image:url(white_egret_orchid.jpg) ;
+  min-height: 400px;
+}
+
+.caption {
+	position: absolute;
+	left: -7px;
+	top: 261px;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	height: 2px;
+	background-color:transparent;
+	font-size:25px;
+	
+}
+
+	
+
+.caption span.border {
+  background-color:transparent;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+
+h3 {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+  padding-left:900px;
+}
+.Box1{
+  background-color:white;
+  text-align:center;
+  padding:50px 80px;
+ 
+  
+  
+		
+}
+.Box2{
+  background-color:#282E34;
+  color:#ddd;
+  text-align:center;
+  padding:50px 80px;
+	
+}
+.Box3{
+  background-color:#282E34;
+  color:#ddd;
+  text-align:center;
+  padding:50px 80px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* stänger av parallaxen för enheter som mobiler osv. */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+	}
+		h3 {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+  padding-left:125px;
+}
+   
+}

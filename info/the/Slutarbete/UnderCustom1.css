@@ -1,0 +1,237 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, html {
+overflow-x:hidden;
+	min-height: 100%;
+}
+
+
+.banner1{
+   background-image:url(arnold-schwarzenegger-1920x1080.jpg);
+   background-repeat:no-repeat;
+   background-size:cover;
+   height: 100%;
+   background-position:center;
+   min-height:120vh;
+   background-color:transparent;
+   color:transparent;
+}
+.banner1 p{
+	position: absolute;
+	color:#000;
+	font-size:24px;
+	margin-left:10%;
+	margin-top:15%;
+	width:30%;
+	text-align:center;
+	
+}
+.banner1 h1{
+    color:#000;
+	position: absolute;
+	width:45%;
+	margin-left:17%;
+	margin-top: 10%;
+	font-size: 4em;	
+}
+.banner2{
+   background-image:url(Cd7iyFl.jpg);
+   background-repeat:no-repeat;
+   background-size:cover;
+   height: 100%;
+   background-position:center;
+   min-height:120vh;
+   background-color:transparent;
+   font-size:25px;
+   color:transparent;
+}
+.banner2 p{
+	position: absolute;
+	color:#000;
+	font-size:24px;
+	margin-left:10%;
+	margin-top:15%;
+	width:30%;
+	text-align:center;
+	
+}
+.banner2 h1{
+    color:#000;
+	position: absolute;
+	width:45%;
+	margin-left:16%;
+	margin-top: 7%;
+	font-size: 4em;	
+}
+.banner3{
+   background-image:url(86f21228a392ba1e473e9605ef200fec.jpg);
+   background-repeat:no-repeat;
+   background-size:cover;
+   height: 100%;
+   background-position:center;
+   min-height:120vh;
+   background-color:transparent;
+   font-size:25px;
+   color:transparent;
+}
+.banner3 p{
+	position: absolute;
+	color:#FFF;
+	font-size:24px;
+	margin-left:35%;
+	margin-top:15%;
+	width:30%;
+	text-align:center;
+	
+}
+.banner3 h1{
+    color:#000;
+	position: absolute;
+	width:45%;
+	margin-left:17%;
+	margin-top: 10%;
+	font-size: 4em;	
+}
+.banner4{
+   background-image:url(251041.jpg);
+   background-repeat:no-repeat;
+   background-size:cover;
+   height: 100%;
+   background-position:center;
+   min-height:120vh;
+   background-color:transparent;
+   font-size:25px;
+   color:transparent;
+}
+
+.navbar{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border:none;
+	margin:0;
+	font-family: 'Raleway', sans-serif;
+	background: #3a6186; /* för gamlare webläsare */
+    background: linear-gradient(to top, transparent , #272723);
+}
+
+.navbar-collapse .navbar-nav > li > a {
+
+color: #FFFFFF;
+}
+
+.navbar-default .navbar-brand{
+ 
+ font-size:26px;
+ font-family: 'Raleway', sans-serif;
+ color:#FFFFFF;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    
+    color:black;
+}
+.navbar-default .navbar-brand:hover  {
+ 
+ font-size:26px;
+ font-family: 'Raleway', sans-serif;
+ color:black;
+ 
+}
+
+
+footer{
+	text-align:center;
+	font-family: 'Raleway', sans-serif;
+	font-size:1em;
+	
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-device-width: 1024px){
+
+	.banner1 p{
+	color:#000;
+	font-size:12px;
+	margin-left:7%;
+	margin-top:35%;
+	width:60%;
+	text-align: left;
+	background-color:rgba(255, 255, 255, 0.2);
+	border-radius:10px;
+}
+	.banner1 h1{
+    color:#000;
+	position: absolute;
+	width:45%;
+	margin-left:7%;
+	margin-top:20%;
+	font-size: 2em;	
+}
+	.banner2 p{
+	position: absolute;
+	color:#000;
+	font-size:12px;
+	margin-left:13%;
+	margin-top:40%;
+	width:70%;
+	text-align:center;
+	background-color:rgba(255, 255, 255, 0.3);
+	border-radius:10px;
+	
+}
+	.banner2 h1{
+    color:#000;
+	position: absolute;
+	width:45%;
+	margin-left:20%;
+	margin-top:20%;
+	font-size: 2em;	
+}
+	
+	/*---- för att få naven att synas vid optimisering --- */
+	.navbar{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border:none;
+	margin:0;
+	font-family: 'Raleway', sans-serif;
+	background-color: #000;
+    
+}
+}
+
+	
+
+
+
+
+
+@media only screen and (min-width:768px) {
+  .navbar-default {
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+    padding: 15px 0;
+    /* Add additional styles here for the UNCOLLAPSED state */
+  }
+  .navbar-default.affix {
+    padding: 0;
+    /* Add additional styles here for the COLLAPSED state */
+  	
+	
+	
+	
+}
+	
+}
