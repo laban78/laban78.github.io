@@ -58,8 +58,8 @@ body {
 
 .button span {
   cursor: pointer;
+  margin:5px;
   
- 
   display: inline-block;
   position: relative;
   transition: 0.5s;
